@@ -1,0 +1,22 @@
+﻿生成启动时间为 2019/4/17 14:52:55。
+     1>项目“C:\Users\pc\Desktop\毛不易老婆的文件夹\科林\项目代码\你画我猜\1027Server\1027Server\1027Server.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pc\Desktop\毛不易老婆的文件夹\科林\项目代码\你画我猜\1027Server\Debug\1027Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pc\Desktop\毛不易老婆的文件夹\科林\项目代码\你画我猜\1027Server\Debug\1027Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pc\Desktop\毛不易老婆的文件夹\科林\项目代码\你画我猜\1027Server\Debug\1027Server.lib" /MACHINE:X86 Debug\TCPKernel.obj
+         Debug\CMySql.obj
+         Debug\TCPNet.obj
+         Debug\MyThreadpool.obj
+         Debug\main.obj
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_errno@4，该符号在函数 "public: bool __thiscall CMySql::ConnectMySql(char *,char *,char *,char *)" (?ConnectMySql@CMySql@@QAE_NPAD000@Z) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_set_character_set@8，该符号在函数 "public: __thiscall CMySql::CMySql(void)" (??0CMySql@@QAE@XZ) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "public: __thiscall CMySql::CMySql(void)" (??0CMySql@@QAE@XZ) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "public: bool __thiscall CMySql::ConnectMySql(char *,char *,char *,char *)" (?ConnectMySql@CMySql@@QAE_NPAD000@Z) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_query@8，该符号在函数 "public: bool __thiscall CMySql::SelectMySql(char *,int,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)" (?SelectMySql@CMySql@@QAE_NPADHAAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_store_result@4，该符号在函数 "public: bool __thiscall CMySql::SelectMySql(char *,int,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)" (?SelectMySql@CMySql@@QAE_NPADHAAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_row@4，该符号在函数 "public: bool __thiscall CMySql::SelectMySql(char *,int,class std::list<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &)" (?SelectMySql@CMySql@@QAE_NPADHAAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z) 中被引用
+     1>CMySql.obj : error LNK2019: 无法解析的外部符号 _mysql_close@4，该符号在函数 "public: void __thiscall CMySql::DisConnect(void)" (?DisConnect@CMySql@@QAEXXZ) 中被引用
+     1>C:\Users\pc\Desktop\毛不易老婆的文件夹\科林\项目代码\你画我猜\1027Server\Debug\1027Server.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\pc\Desktop\毛不易老婆的文件夹\科林\项目代码\你画我猜\1027Server\1027Server\1027Server.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.52
